@@ -254,3 +254,26 @@ header {
 .login-register p a:hover {
   text-decoration: underline;
 }
+
+
+
+@media (max-width: 768px) {
+  
+  header {
+    padding: 10px 20px;
+  }
+
+  .navigation {
+    flex-direction: column; 
+    align-items: flex-end; 
+  }
+
+  .navigation a {
+    font-size: 1.2em; 
+  }
+
+  .btnLogin-popup {
+    margin: 10px 0; 
+    font-size: 1.2em;
+  }
+}
