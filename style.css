@@ -264,16 +264,19 @@ header {
   }
 
   .navigation {
-    flex-direction: column; 
-    align-items: flex-end; 
+    display: flex;
+    flex-direction: column;
+   align-items: flex-end;
   }
-
+.menu-toggle {
+  display: block;
+}
   .navigation a {
     font-size: 1.2em; 
+    margin-bottom: 10px;
   }
 
   .btnLogin-popup {
-    margin: 10px 0; 
-    font-size: 1.2em;
+ margin-top: 16px;
   }
 }
